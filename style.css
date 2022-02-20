@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap");
+
+body {
+  font-family: "Muli", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: #48bf91;
+  color: #fff;
+  height: 100vh;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+#container {
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.form-wrap {
+  background: #ecfad6;
+  padding: 15px 35px;
+  color: #333;
+  border-radius: 20px;
+}
+
+.form-wrap h2,
+.form-wrap p {
+  text-align: center;
+}
+
+.form-wrap .formgroup {
+  margin-top: 5px;
+}
+
+.form-wrap .formgroup label {
+  display: block;
+  color: #666;
+}
+
+.form-wrap .formgroup input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-wrap .formgroup input::placeholder {
+  color: #c1c1c9;
+}
+
+.form-wrap button {
+  display: block;
+  background: #15997a;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+.form-wrap button:hover {
+  background: #11694e;
+}
+
+.form-wrap .bottom-text {
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+footer a {
+  color: #0b3d2e;
+}
